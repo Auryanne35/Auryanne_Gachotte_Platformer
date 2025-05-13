@@ -1,5 +1,5 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"GACHOTTE_Auryanne_Platformer",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -26,11 +26,12 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"GACHOTTE_Auryanne_Platformer",
   "resources":[
@@ -40,7 +41,9 @@
     {"id":{"name":"O_fleuruisant","path":"objects/O_fleuruisant/O_fleuruisant.yy",},},
     {"id":{"name":"O_interraction_champi","path":"objects/O_interraction_champi/O_interraction_champi.yy",},},
     {"id":{"name":"O_interraction_fleur","path":"objects/O_interraction_fleur/O_interraction_fleur.yy",},},
+    {"id":{"name":"O_manager_physique","path":"objects/O_manager_physique/O_manager_physique.yy",},},
     {"id":{"name":"O_manager_sprite","path":"objects/O_manager_sprite/O_manager_sprite.yy",},},
+    {"id":{"name":"Object9","path":"objects/Object9/Object9.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"S_champimoufle","path":"sprites/S_champimoufle/S_champimoufle.yy",},},
     {"id":{"name":"S_collision","path":"sprites/S_collision/S_collision.yy",},},
