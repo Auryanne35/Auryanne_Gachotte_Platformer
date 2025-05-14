@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
   "%Name":"O_interraction_fleur",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"O_interraction_fleur",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"joueur",
+    "path":"folders/Objects/joueur.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"S_interraction_fleur",
+    "path":"sprites/S_interraction_fleur/S_interraction_fleur.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

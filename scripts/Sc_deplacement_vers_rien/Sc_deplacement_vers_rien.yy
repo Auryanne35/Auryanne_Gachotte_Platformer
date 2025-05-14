@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Sc_deplacement_vers_rien",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"Sc_deplacement_vers_rien",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

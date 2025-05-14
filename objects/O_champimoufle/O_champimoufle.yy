@@ -15,8 +15,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_manager_physique","path":"objects/O_manager_physique/O_manager_physique.yy",},"propertyId":{"name":"touche_saut","path":"objects/O_manager_physique/O_manager_physique.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"vk_space",},
   ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"joueur",
+    "path":"folders/Objects/joueur.yy",
   },
   "parentObjectId":{
     "name":"O_manager_physique",

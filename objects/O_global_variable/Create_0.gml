@@ -1,0 +1,1 @@
+global.id_racine_compteur = 0

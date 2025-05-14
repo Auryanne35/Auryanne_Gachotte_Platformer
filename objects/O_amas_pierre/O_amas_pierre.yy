@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"O_collision_interraction",
+  "%Name":"O_amas_pierre",
   "eventList":[],
   "managed":true,
-  "name":"O_collision_interraction",
+  "name":"O_amas_pierre",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"enigme",
+    "path":"folders/Objects/enigme.yy",
   },
   "parentObjectId":null,
   "persistent":false,
