@@ -20,9 +20,9 @@ function Sc_perte_vie_champi(degat, temps_invincible) {	/// @DnDAction : YoYo 
 		/// @DnDArgument : "expr" "-degat"
 		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "expr_1" "true"
-		/// @DnDArgument : "var" "O_manager_ui.vie_champi"
+		/// @DnDArgument : "var" "global.vie_champi"
 		/// @DnDArgument : "var_1" "O_manager_ui.invincible_champi"
-		O_manager_ui.vie_champi += -degat;
+		global.vie_champi += -degat;
 		O_manager_ui.invincible_champi = true;
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm

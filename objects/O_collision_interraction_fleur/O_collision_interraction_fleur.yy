@@ -11,10 +11,13 @@
   "name":"O_collision_interraction_fleur",
   "overriddenProperties":[],
   "parent":{
-    "name":"manager",
-    "path":"folders/Objects/manager.yy",
+    "name":"joueur",
+    "path":"folders/Objects/manager/joueur.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"O_collision",
+    "path":"objects/O_collision/O_collision.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

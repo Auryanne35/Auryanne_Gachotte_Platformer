@@ -20,9 +20,9 @@ function Sc_perte_vie_fleur(degat, temps_invincible) {	/// @DnDAction : YoYo G
 		/// @DnDArgument : "expr" "-degat"
 		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "expr_1" "true"
-		/// @DnDArgument : "var" "O_manager_ui.vie_fleur"
+		/// @DnDArgument : "var" "global.vie_fleur"
 		/// @DnDArgument : "var_1" "O_manager_ui.invincible_fleur"
-		O_manager_ui.vie_fleur += -degat;
+		global.vie_fleur += -degat;
 		O_manager_ui.invincible_fleur = true;
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm

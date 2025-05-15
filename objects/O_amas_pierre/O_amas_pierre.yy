@@ -1,7 +1,10 @@
 {
   "$GMObject":"",
   "%Name":"O_amas_pierre",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_spores","path":"objects/O_spores/O_spores.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"O_amas_pierre",
   "overriddenProperties":[],
@@ -9,7 +12,10 @@
     "name":"enigme",
     "path":"folders/Objects/enigme.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"O_collision",
+    "path":"objects/O_collision/O_collision.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -23,11 +29,17 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"explose","filters":[],"listItems":[],"multiselect":false,"name":"explose","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"compteur","filters":[],"listItems":[],"multiselect":false,"name":"compteur","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"S_amas_pierre",
+    "path":"sprites/S_amas_pierre/S_amas_pierre.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

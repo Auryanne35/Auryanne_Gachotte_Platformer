@@ -9,8 +9,8 @@
   "name":"O_manager_physique",
   "overriddenProperties":[],
   "parent":{
-    "name":"manager",
-    "path":"folders/Objects/manager.yy",
+    "name":"joueur",
+    "path":"folders/Objects/manager/joueur.yy",
   },
   "parentObjectId":null,
   "persistent":false,

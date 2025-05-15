@@ -1,1 +1,1 @@
-room_goto(Room1)
+room_goto(R_ecran_titre)

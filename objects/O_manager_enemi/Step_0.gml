@@ -41,6 +41,13 @@ else{	/// @DnDAction : YoYo Games.Movement.Set_Speed
 	/// @DnDVersion : 1
 	/// @DnDHash : 207EECBC
 	/// @DnDParent : 41FDC7D2
-	/// @DnDArgument : "speed" "2"
+	/// @DnDArgument : "speed" "10"
 	/// @DnDArgument : "type" "2"
-	vspeed = 2;}
+	vspeed = 10;
+
+	/// @DnDAction : YoYo Games.Movement.Set_Speed
+	/// @DnDVersion : 1
+	/// @DnDHash : 127B755A
+	/// @DnDParent : 41FDC7D2
+	/// @DnDArgument : "type" "1"
+	hspeed = 0;}

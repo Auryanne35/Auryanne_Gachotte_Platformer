@@ -1,7 +1,11 @@
 {
   "$GMObject":"",
   "%Name":"O_champipi",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"O_champipi",
   "overriddenProperties":[],
@@ -9,7 +13,10 @@
     "name":"enigme",
     "path":"folders/Objects/enigme.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"O_collision_interraction_champi",
+    "path":"objects/O_collision_interraction_champi/O_collision_interraction_champi.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -23,11 +30,18 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"x_racine_champignon","filters":[],"listItems":[],"multiselect":false,"name":"x_racine_champignon","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"y_racine_champignon","filters":[],"listItems":[],"multiselect":false,"name":"y_racine_champignon","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"spores","filters":[],"listItems":[],"multiselect":false,"name":"spores","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"S_champipi",
+    "path":"sprites/S_champipi/S_champipi.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
