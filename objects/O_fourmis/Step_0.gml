@@ -7,8 +7,8 @@ var attaque_gauche_champi = collision_rectangle(x-4-32, y-32, x-32, y+32, O_cham
 var attaque_droite_champi = collision_rectangle(x+32, y-32, x+32+4, y+32, O_champimoufle, 0, 0);
 var attaque_gauche_fleur = collision_rectangle(x-4-32, y-32, x-32, y+32, O_fleuruisant, 0, 0);
 var attaque_droite_fleur = collision_rectangle(x+32, y-32, x+32+4, y+32, O_fleuruisant, 0, 0);
-var collision_gauche = collision_rectangle(x-60-32, y-32, x-32, y+32, O_collision, 0, 0);
-var collision_droite = collision_rectangle(x+32, y-32, x+32+60, y+32, O_collision, 0, 0);
+var collision_gauche = collision_rectangle(x-20-32, y-32, x-32, y+32, O_collision, 0, 0);
+var collision_droite = collision_rectangle(x+32, y-32, x+32+20, y+32, O_collision, 0, 0);
 if (collision_gauche)
 {
 	hspeed = 2;
@@ -38,7 +38,7 @@ else if (attaque_droite_fleur)
 	hspeed = 0;
 	event_user(2);
 }
-else if (attaque_droite_fleur)
+else if (attaque_gauche_fleur)
 {
 	hspeed = 0;
 	event_user(2);

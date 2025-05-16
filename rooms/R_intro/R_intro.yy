@@ -1,24 +1,24 @@
 {
   "$GMRoom":"v1",
-  "%Name":"R_choix_niveau",
+  "%Name":"R_intro",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_35FCBE4E","path":"rooms/R_choix_niveau/R_choix_niveau.yy",},
+    {"name":"inst_1B76AE45","path":"rooms/R_intro/R_intro.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v2","%Name":"inst_35FCBE4E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_35FCBE4E","objectId":{"name":"O_bouton","path":"objects/O_bouton/O_bouton.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_bouton","path":"objects/O_bouton/O_bouton.yy",},"propertyId":{"name":"boutton_specifique","path":"objects/O_bouton/O_bouton.yy",},"resource":{"name":"S_bouton_choix_niveau","path":"sprites/S_bouton_choix_niveau/S_bouton_choix_niveau.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_bouton_choix_niveau",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_bouton","path":"objects/O_bouton/O_bouton.yy",},"propertyId":{"name":"go","path":"objects/O_bouton/O_bouton.yy",},"resource":{"name":"R_chapitre_1","path":"rooms/R_chapitre_1/R_chapitre_1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"R_chapitre_1",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":448.0,"y":224.0,},
+        {"$GMRInstance":"v2","%Name":"inst_1B76AE45","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1B76AE45","objectId":{"name":"O_bouton","path":"objects/O_bouton/O_bouton.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_bouton","path":"objects/O_bouton/O_bouton.yy",},"propertyId":{"name":"boutton_specifique","path":"objects/O_bouton/O_bouton.yy",},"resource":{"name":"S_tourne_page","path":"sprites/S_tourne_page/S_tourne_page.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_tourne_page",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_bouton","path":"objects/O_bouton/O_bouton.yy",},"propertyId":{"name":"go","path":"objects/O_bouton/O_bouton.yy",},"resource":{"name":"R_page_champi","path":"rooms/R_page_champi/R_page_champi.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"R_page_champi",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1760.0,"y":992.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4287473330,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"R_choix_niveau",
+  "name":"R_intro",
   "parent":{
     "name":"Rooms",
     "path":"folders/Rooms.yy",
