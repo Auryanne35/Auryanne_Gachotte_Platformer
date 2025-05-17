@@ -11,6 +11,9 @@
   "name":"O_araignee",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_manager_enemi","path":"objects/O_manager_enemi/O_manager_enemi.yy",},"propertyId":{"name":"vie","path":"objects/O_manager_enemi/O_manager_enemi.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_manager_enemi","path":"objects/O_manager_enemi/O_manager_enemi.yy",},"propertyId":{"name":"idle","path":"objects/O_manager_enemi/O_manager_enemi.yy",},"resource":{"name":"S_araignee","path":"sprites/S_araignee/S_araignee.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_araignee",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_manager_enemi","path":"objects/O_manager_enemi/O_manager_enemi.yy",},"propertyId":{"name":"droite","path":"objects/O_manager_enemi/O_manager_enemi.yy",},"resource":{"name":"S_araignee","path":"sprites/S_araignee/S_araignee.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_araignee",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_manager_enemi","path":"objects/O_manager_enemi/O_manager_enemi.yy",},"propertyId":{"name":"gauche","path":"objects/O_manager_enemi/O_manager_enemi.yy",},"resource":{"name":"S_araignee","path":"sprites/S_araignee/S_araignee.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_araignee",},
   ],
   "parent":{
     "name":"ennemis",

@@ -6,11 +6,15 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":11,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":12,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"O_fourmis",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_manager_enemi","path":"objects/O_manager_enemi/O_manager_enemi.yy",},"propertyId":{"name":"vie","path":"objects/O_manager_enemi/O_manager_enemi.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_manager_enemi","path":"objects/O_manager_enemi/O_manager_enemi.yy",},"propertyId":{"name":"idle","path":"objects/O_manager_enemi/O_manager_enemi.yy",},"resource":{"name":"S_fourmis_idle","path":"sprites/S_fourmis_idle/S_fourmis_idle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_fourmis_idle",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_manager_enemi","path":"objects/O_manager_enemi/O_manager_enemi.yy",},"propertyId":{"name":"droite","path":"objects/O_manager_enemi/O_manager_enemi.yy",},"resource":{"name":"S_fourmis","path":"sprites/S_fourmis/S_fourmis.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_fourmis",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_manager_enemi","path":"objects/O_manager_enemi/O_manager_enemi.yy",},"propertyId":{"name":"gauche","path":"objects/O_manager_enemi/O_manager_enemi.yy",},"resource":{"name":"S_fourmis","path":"sprites/S_fourmis/S_fourmis.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_fourmis",},
   ],
   "parent":{
     "name":"ennemis",

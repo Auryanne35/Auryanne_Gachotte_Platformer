@@ -7,6 +7,7 @@ var collision_droite = collision_rectangle(x+32, y-32, x+32+67, y+32, O_collisio
 if (collision_gauche)
 {
 	hspeed = 2;
+	dirX = 1;
 	compteur = 0;
 	marche_gauche = false;
 	marche_droite = true;
@@ -14,6 +15,7 @@ if (collision_gauche)
 else if (collision_droite)
 {
 	hspeed = -2;
+	dirX = -1;
 	compteur = 0;
 	marche_gauche = true;
 	marche_droite = false;
@@ -21,21 +23,25 @@ else if (collision_droite)
 else if (attaque_gauche_champi)
 {
 	hspeed = 0;
+	dirX = -1;
 	event_user(1);
 }
 else if (attaque_droite_champi)
 {
 	hspeed = 0;
+	dirX = 1;
 	event_user(1);
 }
 else if (attaque_droite_fleur)
 {
 	hspeed = 0;
+	dirX = 1;
 	event_user(2);
 }
 else if (attaque_droite_fleur)
 {
 	hspeed = 0;
+	dirX = -1;
 	event_user(2);
 }
 else
@@ -44,9 +50,11 @@ else
 	{
 		hspeed = 2;
 		compteur += 1;
-		if (compteur >= 64)
+		dirX = 1;
+		if (compteur >= 128)
 		{
 			compteur = 0;
+			dirX = -1;
 			marche_droite = false;
 			marche_gauche = true;
 		}
@@ -55,9 +63,11 @@ else
 	{
 		hspeed = -2;
 		compteur += 1;
-		if (compteur >= 64)
+		dirX = -1;
+		if (compteur >= 128)
 		{
 			compteur = 0;
+			dirX = 1;
 			marche_droite = true;
 			marche_gauche = false;
 		}

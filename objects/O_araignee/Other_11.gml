@@ -4,6 +4,6 @@
 /// @DnDInput : 2
 /// @DnDArgument : "script" "Sc_perte_vie_champi"
 /// @DnDArgument : "arg" "1"
-/// @DnDArgument : "arg_1" "30"
+/// @DnDArgument : "arg_1" "60"
 /// @DnDSaveInfo : "script" "Sc_perte_vie_champi"
-script_execute(Sc_perte_vie_champi, 1, 30);
+script_execute(Sc_perte_vie_champi, 1, 60);
