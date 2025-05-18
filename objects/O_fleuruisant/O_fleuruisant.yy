@@ -13,6 +13,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_manager_physique","path":"objects/O_manager_physique/O_manager_physique.yy",},"propertyId":{"name":"touche_gauche","path":"objects/O_manager_physique/O_manager_physique.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"vk_left",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_manager_physique","path":"objects/O_manager_physique/O_manager_physique.yy",},"propertyId":{"name":"touche_droite","path":"objects/O_manager_physique/O_manager_physique.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"vk_right",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_manager_physique","path":"objects/O_manager_physique/O_manager_physique.yy",},"propertyId":{"name":"touche_saut","path":"objects/O_manager_physique/O_manager_physique.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"vk_enter",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_manager_sprite","path":"objects/O_manager_sprite/O_manager_sprite.yy",},"propertyId":{"name":"idle","path":"objects/O_manager_sprite/O_manager_sprite.yy",},"resource":{"name":"S_petit_fleuruisant","path":"sprites/S_petit_fleuruisant/S_petit_fleuruisant.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_petit_fleuruisant",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_manager_sprite","path":"objects/O_manager_sprite/O_manager_sprite.yy",},"propertyId":{"name":"marche_perso","path":"objects/O_manager_sprite/O_manager_sprite.yy",},"resource":{"name":"S_petit_fleuruisant_marche","path":"sprites/S_petit_fleuruisant_marche/S_petit_fleuruisant_marche.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_petit_fleuruisant_marche",},
   ],
   "parent":{
     "name":"joueur",
@@ -43,8 +45,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_fleuruisant",
-    "path":"sprites/S_fleuruisant/S_fleuruisant.yy",
+    "name":"S_petit_fleuruisant",
+    "path":"sprites/S_petit_fleuruisant/S_petit_fleuruisant.yy",
   },
   "spriteMaskId":null,
   "visible":true,

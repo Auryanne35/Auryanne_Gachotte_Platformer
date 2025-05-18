@@ -78,7 +78,22 @@ if(global.vie_champi <= 0){	/// @DnDAction : YoYo Games.Instances.If_Instance_
 /// @DnDHash : 5EE0FB74
 /// @DnDArgument : "var" "global.vie_fleur"
 /// @DnDArgument : "op" "3"
-if(global.vie_fleur <= 0){	/// @DnDAction : YoYo Games.Common.Variable
+if(global.vie_fleur <= 0){	/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
+	/// @DnDVersion : 1
+	/// @DnDHash : 3504F9CE
+	/// @DnDParent : 5EE0FB74
+	/// @DnDArgument : "obj" "O_champimoufle"
+	/// @DnDArgument : "not" "1"
+	/// @DnDSaveInfo : "obj" "O_champimoufle"
+	var l3504F9CE_0 = false;l3504F9CE_0 = instance_exists(O_champimoufle);if(!l3504F9CE_0){	/// @DnDAction : YoYo Games.Common.Execute_Code
+		/// @DnDVersion : 1
+		/// @DnDHash : 4F75F50A
+		/// @DnDParent : 3504F9CE
+		/// @DnDArgument : "code" "instance_activate_object(O_champimoufle);$(13_10)instance_activate_object(O_interraction_champi);"
+		instance_activate_object(O_champimoufle);
+		instance_activate_object(O_interraction_champi);}
+
+	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 7D5913E5
 	/// @DnDInput : 2

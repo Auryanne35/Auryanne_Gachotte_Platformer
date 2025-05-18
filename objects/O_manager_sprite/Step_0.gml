@@ -48,11 +48,13 @@ else if(atterri)
 }
 else if (hspeed >= 1)
 {
-	sprite_index = marche;
+	sprite_index = marche_perso;
+	image_xscale = 1;
 }
 else if (hspeed <= -1)
 {
-	sprite_index = marche;
+	sprite_index = marche_perso;
+	image_xscale = -1;
 }
 else
 {

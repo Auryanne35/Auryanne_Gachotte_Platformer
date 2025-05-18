@@ -13,6 +13,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_manager_physique","path":"objects/O_manager_physique/O_manager_physique.yy",},"propertyId":{"name":"touche_gauche","path":"objects/O_manager_physique/O_manager_physique.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"ord(\"Q\")",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_manager_physique","path":"objects/O_manager_physique/O_manager_physique.yy",},"propertyId":{"name":"touche_droite","path":"objects/O_manager_physique/O_manager_physique.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"ord(\"D\")",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_manager_physique","path":"objects/O_manager_physique/O_manager_physique.yy",},"propertyId":{"name":"touche_saut","path":"objects/O_manager_physique/O_manager_physique.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"vk_space",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_manager_sprite","path":"objects/O_manager_sprite/O_manager_sprite.yy",},"propertyId":{"name":"marche_perso","path":"objects/O_manager_sprite/O_manager_sprite.yy",},"resource":{"name":"S_petit_champimoufle_marche","path":"sprites/S_petit_champimoufle_marche/S_petit_champimoufle_marche.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_petit_champimoufle_marche",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_manager_sprite","path":"objects/O_manager_sprite/O_manager_sprite.yy",},"propertyId":{"name":"idle","path":"objects/O_manager_sprite/O_manager_sprite.yy",},"resource":{"name":"S_petit_champimoufle","path":"sprites/S_petit_champimoufle/S_petit_champimoufle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_petit_champimoufle",},
   ],
   "parent":{
     "name":"joueur",
@@ -43,8 +45,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_champimoufle",
-    "path":"sprites/S_champimoufle/S_champimoufle.yy",
+    "name":"S_petit_champimoufle",
+    "path":"sprites/S_petit_champimoufle/S_petit_champimoufle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
