@@ -1,5 +1,5 @@
 var detection_champi = collision_rectangle(x-256-largeur, y-256-hauteur, x+256+largeur, y+256+hauteur, O_champimoufle, 0, 0);
-if (global.cache == false)
+if (instance_exists(O_champimoufle))
 {
 	var p_direction = point_direction(x,y, O_champimoufle.x, O_champimoufle.y)
 }

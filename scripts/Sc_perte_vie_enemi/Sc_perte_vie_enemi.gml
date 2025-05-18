@@ -15,15 +15,18 @@ function Sc_perte_vie_enemi(degat, temps_invincible) {	/// @DnDAction : YoYo G
 	if(O_manager_enemi.invincible == false){	/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 39E04865
-		/// @DnDInput : 2
+		/// @DnDInput : 3
 		/// @DnDParent : 4F50F390
 		/// @DnDArgument : "expr" "-degat"
 		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "expr_1" "true"
+		/// @DnDArgument : "expr_2" "true"
 		/// @DnDArgument : "var" "vie"
 		/// @DnDArgument : "var_1" "invincible"
+		/// @DnDArgument : "var_2" "O_fleuruisant.attaque"
 		vie += -degat;
 		invincible = true;
+		O_fleuruisant.attaque = true;
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1

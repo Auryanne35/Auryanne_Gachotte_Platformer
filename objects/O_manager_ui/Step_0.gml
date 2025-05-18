@@ -14,7 +14,22 @@ interragir_fleur = false;
 /// @DnDHash : 5C8E238C
 /// @DnDArgument : "var" "global.vie_champi"
 /// @DnDArgument : "op" "3"
-if(global.vie_champi <= 0){	/// @DnDAction : YoYo Games.Common.Variable
+if(global.vie_champi <= 0){	/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
+	/// @DnDVersion : 1
+	/// @DnDHash : 7422CA92
+	/// @DnDParent : 5C8E238C
+	/// @DnDArgument : "obj" "O_champimoufle"
+	/// @DnDArgument : "not" "1"
+	/// @DnDSaveInfo : "obj" "O_champimoufle"
+	var l7422CA92_0 = false;l7422CA92_0 = instance_exists(O_champimoufle);if(!l7422CA92_0){	/// @DnDAction : YoYo Games.Common.Execute_Code
+		/// @DnDVersion : 1
+		/// @DnDHash : 0F580C1F
+		/// @DnDParent : 7422CA92
+		/// @DnDArgument : "code" "instance_activate_object(O_champimoufle);$(13_10)instance_activate_object(O_interraction_champi);"
+		instance_activate_object(O_champimoufle);
+		instance_activate_object(O_interraction_champi);}
+
+	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 1DFFE274
 	/// @DnDInput : 2

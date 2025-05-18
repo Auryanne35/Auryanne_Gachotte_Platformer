@@ -9,7 +9,15 @@ hspeed = 2;
 /// @DnDVersion : 1
 /// @DnDHash : 19EE540E
 /// @DnDArgument : "expr" "alarm[0] <= 0"
-if(alarm[0] <= 0){	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+if(alarm[0] <= 0){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 54B10913
+	/// @DnDParent : 19EE540E
+	/// @DnDArgument : "expr" "true"
+	/// @DnDArgument : "var" "O_fleuruisant.attaque"
+	O_fleuruisant.attaque = true;
+
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
 	/// @DnDHash : 44706673
 	/// @DnDParent : 19EE540E

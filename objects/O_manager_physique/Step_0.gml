@@ -45,6 +45,7 @@ if(sol)
 	{
 		if (!plafond)
 		{
+			saut = true;
 			vspeed = force_saut;
 		}
 	}
@@ -68,4 +69,4 @@ else
 		vspeed = force_gravite;
 	}
 }
-			
+event_inherited()		

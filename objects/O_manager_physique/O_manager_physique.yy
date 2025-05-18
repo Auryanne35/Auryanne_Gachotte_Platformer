@@ -12,7 +12,10 @@
     "name":"joueur",
     "path":"folders/Objects/manager/joueur.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"O_manager_sprite",
+    "path":"objects/O_manager_sprite/O_manager_sprite.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
