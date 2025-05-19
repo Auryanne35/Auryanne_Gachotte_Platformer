@@ -32,14 +32,20 @@ if(global.vie_champi <= 0){	/// @DnDAction : YoYo Games.Instances.If_Instance_
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 1DFFE274
-	/// @DnDInput : 2
+	/// @DnDInput : 4
 	/// @DnDParent : 5C8E238C
 	/// @DnDArgument : "expr" "5"
 	/// @DnDArgument : "expr_1" "5"
+	/// @DnDArgument : "expr_2" "false"
+	/// @DnDArgument : "expr_3" "false"
 	/// @DnDArgument : "var" "global.vie_champi"
 	/// @DnDArgument : "var_1" "global.vie_fleur"
+	/// @DnDArgument : "var_2" "global.cache"
+	/// @DnDArgument : "var_3" "O_plante_carnivore.attaque"
 	global.vie_champi = 5;
 	global.vie_fleur = 5;
+	global.cache = false;
+	O_plante_carnivore.attaque = false;
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
@@ -96,14 +102,20 @@ if(global.vie_fleur <= 0){	/// @DnDAction : YoYo Games.Instances.If_Instance_E
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 7D5913E5
-	/// @DnDInput : 2
+	/// @DnDInput : 4
 	/// @DnDParent : 5EE0FB74
 	/// @DnDArgument : "expr" "5"
 	/// @DnDArgument : "expr_1" "5"
+	/// @DnDArgument : "expr_2" "false"
+	/// @DnDArgument : "expr_3" "false"
 	/// @DnDArgument : "var" "global.vie_fleur"
 	/// @DnDArgument : "var_1" "global.vie_champi"
+	/// @DnDArgument : "var_2" "global.cache"
+	/// @DnDArgument : "var_3" "O_plante_carnivore.attaque"
 	global.vie_fleur = 5;
 	global.vie_champi = 5;
+	global.cache = false;
+	O_plante_carnivore.attaque = false;
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

@@ -6,7 +6,6 @@ var attaque_gauche_fleur = collision_rectangle(x-20-largeur, y-hauteur, x-largeu
 var attaque_droite_fleur = collision_rectangle(x+largeur, y-hauteur, x+largeur+20, y+hauteur, O_fleuruisant, 0, 0);
 var collision_gauche = collision_rectangle(x-largeur-20, y-hauteur, x-largeur, y+hauteur, O_collision, 0, 0);
 var collision_droite = collision_rectangle(x+largeur, y-hauteur, x+largeur, y+hauteur+20, O_collision, 0, 0);
- show_debug_message(dirX)
 if (attaque_gauche_champi)
 {
 	hspeed = 0;

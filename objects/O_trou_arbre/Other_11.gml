@@ -1,11 +1,3 @@
-/// @DnDAction : YoYo Games.Instances.Set_Sprite
-/// @DnDVersion : 1
-/// @DnDHash : 43007910
-/// @DnDArgument : "spriteind" "S_tronc_arbre"
-/// @DnDSaveInfo : "spriteind" "S_tronc_arbre"
-sprite_index = S_tronc_arbre;
-image_index = 0;
-
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 1262C168
