@@ -28,7 +28,7 @@ personnage du bas:
 - possibilité de frapper une pierre pour la faire tomber dans l'eau et couper l'irrigation de la plante carnivore pour libérer le passage pour le personnage au-dessus
 
 ## informations et particularités
-Pour joueur il faut cliquer sur le deuxième bouton sur l'écran d'accueil, le premier servira a mené à l'histoire des persos et l'histoire du jeu (ce n'est pas encore fais)
-Il n'y a pas de fond derrière les personnages mais il y a bien deux écrans pour faire les deux mondes des personnages
-Le personnage d'en haut n'a aucun moyen d'affronter les ennemis
-Il n'y a pas encore, mais il y aura peut-être des collectibles à récupérer
+- Pour joueur il faut cliquer sur le deuxième bouton sur l'écran d'accueil, le premier servira a mené à l'histoire des persos et l'histoire du jeu (ce n'est pas encore fais)
+- Il n'y a pas de fond derrière les personnages mais il y a bien deux écrans pour faire les deux mondes des personnages
+- Le personnage d'en haut n'a aucun moyen d'affronter les ennemis
+- Il n'y a pas encore, mais il y aura peut-être des collectibles à récupérer
