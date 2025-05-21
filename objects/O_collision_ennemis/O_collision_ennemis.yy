@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"O_collision",
+  "%Name":"O_collision_ennemis",
   "eventList":[],
   "managed":true,
-  "name":"O_collision",
+  "name":"O_collision_ennemis",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"ennemis",
+    "path":"folders/Objects/ennemis.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_collision",
-    "path":"sprites/S_collision/S_collision.yy",
+    "name":"S_collision_ennemis",
+    "path":"sprites/S_collision_ennemis/S_collision_ennemis.yy",
   },
   "spriteMaskId":null,
   "visible":false,

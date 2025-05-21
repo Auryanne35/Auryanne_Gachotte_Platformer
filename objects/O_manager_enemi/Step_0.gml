@@ -106,9 +106,9 @@ if(vie <= 0){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDArgument : "x2_relative" "1"
 /// @DnDArgument : "y2" "32"
 /// @DnDArgument : "y2_relative" "1"
-/// @DnDArgument : "obj" "O_collision"
-/// @DnDSaveInfo : "obj" "O_collision"
-var l7F81B698_0 = collision_line(x + -30, y + 32, x + 30, y + 32, O_collision, true, 1);if((l7F81B698_0)){	/// @DnDAction : YoYo Games.Movement.Set_Speed
+/// @DnDArgument : "obj" "O_collision_ennemis"
+/// @DnDSaveInfo : "obj" "O_collision_ennemis"
+var l7F81B698_0 = collision_line(x + -30, y + 32, x + 30, y + 32, O_collision_ennemis, true, 1);if((l7F81B698_0)){	/// @DnDAction : YoYo Games.Movement.Set_Speed
 	/// @DnDVersion : 1
 	/// @DnDHash : 2B1A68F0
 	/// @DnDParent : 7F81B698

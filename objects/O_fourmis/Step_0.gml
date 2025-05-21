@@ -9,7 +9,13 @@ var attaque_gauche_fleur = collision_rectangle(x-4-largeur, y-hauteur, x-largeur
 var attaque_droite_fleur = collision_rectangle(x+largeur, y-hauteur, x+largeur+4, y+hauteur, O_fleuruisant, 0, 0);
 var collision_gauche = collision_rectangle(x-20-largeur, y-hauteur, x-largeur, y+hauteur, O_collision, 0, 0);
 var collision_droite = collision_rectangle(x+largeur, y-hauteur, x+largeur+20, y+hauteur, O_collision, 0, 0);
-if (collision_gauche)
+var dans_le_sol = collision_rectangle (x-largeur+3, y, x+largeur-3, y +hauteur, O_collision_ennemis,0 ,0);
+
+if (dans_le_sol)
+{
+	y -= 2
+}
+else if (collision_gauche)
 {
 	hspeed = 2;
 	compteur = 0;

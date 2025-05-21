@@ -1,11 +1,11 @@
-var detection_fleur = collision_rectangle(x-256-largeur, y-256-hauteur, x+256+largeur, y+256+hauteur, O_fleuruisant, 0, 0);
+var detection_fleur = collision_rectangle(x-256-largeur, y-256, x+256+largeur, y+256+hauteur, O_fleuruisant, 0, 0);
 var p_direction = point_direction(x,y, O_fleuruisant.x, O_fleuruisant.y)
-var attaque_gauche_champi = collision_rectangle(x-20-largeur, y-hauteur, x-largeur, y+hauteur, O_champimoufle, 0, 0);
-var attaque_droite_champi = collision_rectangle(x+largeur, y-hauteur, x+largeur+20, y+hauteur, O_champimoufle, 0, 0);
-var attaque_gauche_fleur = collision_rectangle(x-20-largeur, y-hauteur, x-largeur, y+hauteur, O_fleuruisant, 0, 0);
-var attaque_droite_fleur = collision_rectangle(x+largeur, y-hauteur, x+largeur+20, y+hauteur, O_fleuruisant, 0, 0);
-var collision_gauche = collision_rectangle(x-largeur-20, y-hauteur, x-largeur, y+hauteur, O_collision, 0, 0);
-var collision_droite = collision_rectangle(x+largeur, y-hauteur, x+largeur, y+hauteur+20, O_collision, 0, 0);
+var attaque_gauche_champi = collision_rectangle(x-20-largeur, y, x-largeur, y+hauteur, O_champimoufle, 0, 0);
+var attaque_droite_champi = collision_rectangle(x+largeur, y, x+largeur+20, y+hauteur, O_champimoufle, 0, 0);
+var attaque_gauche_fleur = collision_rectangle(x-20-largeur, y, x-largeur, y+hauteur, O_fleuruisant, 0, 0);
+var attaque_droite_fleur = collision_rectangle(x+largeur, y, x+largeur+20, y+hauteur, O_fleuruisant, 0, 0);
+var collision_gauche = collision_rectangle(x-largeur-20, y, x-largeur, y+hauteur, O_collision, 0, 0);
+var collision_droite = collision_rectangle(x+largeur, y, x+largeur+20, y+hauteur, O_collision, 0, 0);
 if (attaque_gauche_champi)
 {
 	hspeed = 0;

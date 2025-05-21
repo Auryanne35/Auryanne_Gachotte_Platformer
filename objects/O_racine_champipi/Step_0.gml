@@ -31,9 +31,9 @@ if(mon_champignon.spores == true){	/// @DnDAction : YoYo Games.Common.If_Varia
 		/// @DnDParent : 5D18F737
 		/// @DnDArgument : "var" "x_spores"
 		/// @DnDArgument : "var_temp" "1"
-		/// @DnDArgument : "min" "-32"
-		/// @DnDArgument : "max" "32"
-		var x_spores = (random_range(-32, 32));
+		/// @DnDArgument : "min" "-sprite_width/2"
+		/// @DnDArgument : "max" "sprite_width/2"
+		var x_spores = (random_range(-sprite_width/2, sprite_width/2));
 	
 		/// @DnDAction : YoYo Games.Instances.Create_Instance
 		/// @DnDVersion : 1
@@ -43,8 +43,9 @@ if(mon_champignon.spores == true){	/// @DnDAction : YoYo Games.Common.If_Varia
 		/// @DnDArgument : "xpos_relative" "1"
 		/// @DnDArgument : "ypos_relative" "1"
 		/// @DnDArgument : "objectid" "O_spores"
+		/// @DnDArgument : "layer" ""enigme""
 		/// @DnDSaveInfo : "objectid" "O_spores"
-		instance_create_layer(x + x_spores, y + 0, "Instances", O_spores);}}
+		instance_create_layer(x + x_spores, y + 0, "enigme", O_spores);}}
 
 /// @DnDAction : YoYo Games.Common.Else
 /// @DnDVersion : 1
