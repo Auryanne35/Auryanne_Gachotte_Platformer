@@ -3,7 +3,7 @@
   "%Name":"S_vie_fleur",
   "bboxMode":0,
   "bbox_bottom":63,
-  "bbox_left":1,
+  "bbox_left":0,
   "bbox_right":63,
   "bbox_top":0,
   "collisionKind":1,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e231dea1-c9db-4b0f-ad82-6d8f08df067c","name":"e231dea1-c9db-4b0f-ad82-6d8f08df067c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"9aef5e60-fd9b-4f04-a45c-5b8120dc62a2","name":"9aef5e60-fd9b-4f04-a45c-5b8120dc62a2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"a63ea0ac-031c-40d2-94e6-5ae6054dbca8","blendMode":0,"displayName":"default","isLocked":false,"name":"a63ea0ac-031c-40d2-94e6-5ae6054dbca8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"c09551ad-bb5f-4d13-9dad-a7c1556a3e36","blendMode":0,"displayName":"default","isLocked":false,"name":"c09551ad-bb5f-4d13-9dad-a7c1556a3e36","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"S_vie_fleur",
   "nineSlice":null,
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e231dea1-c9db-4b0f-ad82-6d8f08df067c","path":"sprites/S_vie_fleur/S_vie_fleur.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a6397df4-21f2-4ffc-8fe6-ef9a3dd1b8be","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9aef5e60-fd9b-4f04-a45c-5b8120dc62a2","path":"sprites/S_vie_fleur/S_vie_fleur.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6ce0eff1-bfad-4845-8a4a-2be5a6326cd4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

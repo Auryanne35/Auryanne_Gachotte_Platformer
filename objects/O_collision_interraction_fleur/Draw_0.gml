@@ -14,8 +14,8 @@ if(interraction_fleur == true){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprit
 	/// @DnDParent : 1D873ECB
 	/// @DnDArgument : "x" "-32"
 	/// @DnDArgument : "x_relative" "1"
-	/// @DnDArgument : "y" "-70"
+	/// @DnDArgument : "y" "-100"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "sprite" "S_touche_maj"
 	/// @DnDSaveInfo : "sprite" "S_touche_maj"
-	draw_sprite(S_touche_maj, 0, x + -32, y + -70);}
+	draw_sprite(S_touche_maj, 0, x + -32, y + -100);}

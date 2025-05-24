@@ -16,6 +16,6 @@ if(global.cache == true){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "-70"
 	/// @DnDArgument : "y_relative" "1"
-	/// @DnDArgument : "sprite" "S_touche_e"
-	/// @DnDSaveInfo : "sprite" "S_touche_e"
-	draw_sprite(S_touche_e, 0, x + -32, y + -70);}
+	/// @DnDArgument : "sprite" "S_touche_a"
+	/// @DnDSaveInfo : "sprite" "S_touche_a"
+	draw_sprite(S_touche_a, 0, x + -32, y + -70);}
