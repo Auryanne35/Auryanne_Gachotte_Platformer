@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_rat",
-    "path":"sprites/S_rat/S_rat.yy",
+    "name":"S_herisson",
+    "path":"sprites/S_herisson/S_herisson.yy",
   },
   "spriteMaskId":null,
   "visible":true,

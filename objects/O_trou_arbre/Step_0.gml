@@ -1,19 +1,21 @@
-/// @DnDAction : YoYo Games.Instances.Inherit_Event
+/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 20032FDA
-event_inherited();
+/// @DnDHash : 0EFCBD9D
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "interraction_champi"
+interraction_champi = false;
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 3B4E01AD
-/// @DnDArgument : "code" "if (global.cache == true)$(13_10){$(13_10)	image_index = 1$(13_10)}$(13_10)else $(13_10){$(13_10)	image_index = 0$(13_10)}"
+/// @DnDArgument : "code" "if (global.cache == true)$(13_10){$(13_10)	sprite_index = S_tronc_arbre_cache;$(13_10)}$(13_10)else $(13_10){$(13_10)	sprite_index = S_tronc_arbre;$(13_10)}"
 if (global.cache == true)
 {
-	image_index = 1
+	sprite_index = S_tronc_arbre_cache;
 }
 else 
 {
-	image_index = 0
+	sprite_index = S_tronc_arbre;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
