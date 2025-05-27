@@ -28,6 +28,7 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"texte_histoire","filters":[],"listItems":[],"multiselect":false,"name":"texte_histoire","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
     {"$GMObjectProperty":"v1","%Name":"scale_ecriture","filters":[],"listItems":[],"multiselect":false,"name":"scale_ecriture","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2.1","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"taille","filters":[],"listItems":[],"multiselect":false,"name":"taille","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"200","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
