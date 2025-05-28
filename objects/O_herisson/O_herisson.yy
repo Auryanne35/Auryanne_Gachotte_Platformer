@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"O_rat",
+  "%Name":"O_herisson",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_champimoufle","path":"objects/O_champimoufle/O_champimoufle.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_rat",
+  "name":"O_herisson",
   "overriddenProperties":[],
   "parent":{
     "name":"ennemis",

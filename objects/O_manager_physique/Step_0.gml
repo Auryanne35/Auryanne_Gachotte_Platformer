@@ -39,7 +39,7 @@ if (dans_mur_gauche)
 }
 
 //Saut et redescente
-if(sol)
+if(sol or saut_possible)
 {
 	if (saut)
 	{

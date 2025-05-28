@@ -35,6 +35,7 @@
     {"$GMObjectProperty":"v1","%Name":"touche_gauche","filters":[],"listItems":[],"multiselect":false,"name":"touche_gauche","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":4,},
     {"$GMObjectProperty":"v1","%Name":"touche_droite","filters":[],"listItems":[],"multiselect":false,"name":"touche_droite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":4,},
     {"$GMObjectProperty":"v1","%Name":"touche_saut","filters":[],"listItems":[],"multiselect":false,"name":"touche_saut","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"saut_possible","filters":[],"listItems":[],"multiselect":false,"name":"saut_possible","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

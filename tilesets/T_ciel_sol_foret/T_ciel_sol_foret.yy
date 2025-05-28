@@ -1,25 +1,25 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"T_grotte",
+  "%Name":"T_ciel_sol_foret",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"T_grotte",
-  "out_columns":6,
+  "name":"T_ciel_sol_foret",
+  "out_columns":2,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"grotte",
-    "path":"folders/Tile Sets/grotte.yy",
+    "name":"foret",
+    "path":"folders/Tile Sets/foret.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"S_tile_set_grotte",
-    "path":"sprites/S_tile_set_grotte/S_tile_set_grotte.yy",
+    "name":"S_tile_set_sol_ciel_foret",
+    "path":"sprites/S_tile_set_sol_ciel_foret/S_tile_set_sol_ciel_foret.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -34,5 +34,5 @@
   "tileWidth":64,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":40,
+  "tile_count":3,
 }
