@@ -14,6 +14,8 @@
     {"name":"inst_42091A7C","path":"rooms/R_page_fleur/R_page_fleur.yy",},
     {"name":"inst_741462E6","path":"rooms/R_page_fleur/R_page_fleur.yy",},
     {"name":"inst_797BAF64","path":"rooms/R_page_fleur/R_page_fleur.yy",},
+    {"name":"inst_68147DC","path":"rooms/R_page_fleur/R_page_fleur.yy",},
+    {"name":"inst_29E56384","path":"rooms/R_page_fleur/R_page_fleur.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -53,6 +55,12 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_histoire","path":"objects/O_histoire/O_histoire.yy",},"propertyId":{"name":"texte_histoire","path":"objects/O_histoire/O_histoire.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"FLEURUISANT",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_histoire","path":"objects/O_histoire/O_histoire.yy",},"propertyId":{"name":"scale_ecriture","path":"objects/O_histoire/O_histoire.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"4",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":64.0,},
+        {"$GMRInstance":"v2","%Name":"inst_68147DC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_68147DC","objectId":{"name":"O_histoire","path":"objects/O_histoire/O_histoire.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_histoire","path":"objects/O_histoire/O_histoire.yy",},"propertyId":{"name":"texte_histoire","path":"objects/O_histoire/O_histoire.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Champimoufle",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":464.0,"y":752.0,},
+        {"$GMRInstance":"v2","%Name":"inst_29E56384","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_29E56384","objectId":{"name":"O_histoire","path":"objects/O_histoire/O_histoire.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_histoire","path":"objects/O_histoire/O_histoire.yy",},"propertyId":{"name":"texte_histoire","path":"objects/O_histoire/O_histoire.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Menu",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1344.0,"y":752.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"S_ecran_livre","path":"sprites/S_ecran_livre/S_ecran_livre.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

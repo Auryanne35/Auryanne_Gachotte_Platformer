@@ -9,8 +9,8 @@
   "name":"O_bateau",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"enigme",
+    "path":"folders/Objects/enigme.yy",
   },
   "parentObjectId":{
     "name":"O_collision",
@@ -32,15 +32,14 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"hauteur","filters":[],"listItems":[],"multiselect":false,"name":"hauteur","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"largeur","filters":[],"listItems":[],"multiselect":false,"name":"largeur","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"x_joueur","filters":[],"listItems":[],"multiselect":false,"name":"x_joueur","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"y_joueur","filters":[],"listItems":[],"multiselect":false,"name":"y_joueur","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"arreter","filters":[],"listItems":[],"multiselect":false,"name":"arreter","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_pierre",
-    "path":"sprites/S_pierre/S_pierre.yy",
+    "name":"S_bateau",
+    "path":"sprites/S_bateau/S_bateau.yy",
   },
   "spriteMaskId":null,
   "visible":true,

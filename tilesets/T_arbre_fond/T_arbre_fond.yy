@@ -1,0 +1,38 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"T_arbre_fond",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"T_arbre_fond",
+  "out_columns":4,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"foret",
+    "path":"folders/Tile Sets/foret.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"S_tile_set_arbre_fond",
+    "path":"sprites/S_tile_set_arbre_fond/S_tile_set_arbre_fond.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":256,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":256,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":14,
+}

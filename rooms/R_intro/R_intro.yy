@@ -11,6 +11,7 @@
     {"name":"inst_61DE551E","path":"rooms/R_intro/R_intro.yy",},
     {"name":"inst_1FC4086","path":"rooms/R_intro/R_intro.yy",},
     {"name":"inst_2AA11518","path":"rooms/R_intro/R_intro.yy",},
+    {"name":"inst_488B0693","path":"rooms/R_intro/R_intro.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -34,6 +35,9 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_bouton","path":"objects/O_bouton/O_bouton.yy",},"propertyId":{"name":"boutton_specifique","path":"objects/O_bouton/O_bouton.yy",},"resource":{"name":"S_bouton_retour","path":"sprites/S_bouton_retour/S_bouton_retour.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"S_bouton_retour",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_bouton","path":"objects/O_bouton/O_bouton.yy",},"propertyId":{"name":"go","path":"objects/O_bouton/O_bouton.yy",},"resource":{"name":"R_ecran_titre","path":"rooms/R_ecran_titre/R_ecran_titre.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"R_ecran_titre",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":48.0,},
+        {"$GMRInstance":"v2","%Name":"inst_488B0693","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_488B0693","objectId":{"name":"O_histoire","path":"objects/O_histoire/O_histoire.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_histoire","path":"objects/O_histoire/O_histoire.yy",},"propertyId":{"name":"texte_histoire","path":"objects/O_histoire/O_histoire.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Champimoufle",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1296.0,"y":752.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"S_ecran_livre","path":"sprites/S_ecran_livre/S_ecran_livre.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

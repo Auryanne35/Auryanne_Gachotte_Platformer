@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"tile_set",
-    "path":"folders/Sprites/tile_set.yy",
+    "name":"foret",
+    "path":"folders/Sprites/tile_set/foret.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

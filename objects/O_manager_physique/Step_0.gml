@@ -1,3 +1,4 @@
+global.room_actuelle = room
 // Les collisions
 var sol = collision_line(x-largeur+5, y+hauteur, x+largeur-5, y+hauteur,O_collision, 0, 0);
 var plafond = collision_line(x-largeur, y-hauteur-5, x+largeur, y-hauteur-5, O_collision, 0, 0);
