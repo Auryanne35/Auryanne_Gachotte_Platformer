@@ -40,19 +40,25 @@ if (dans_mur_gauche)
 }
 
 //Saut et redescente
-if(sol or saut_possible)
+if(sol)
 {
 	if (saut)
 	{
 		if (!plafond)
 		{
-			saut = true;
+			va_atterrir = true;
+			saute = true;
 			vspeed = force_saut;
 		}
 	}
 	else
 	{
 		vspeed = 0;
+		if (va_atterrir == true)
+		{
+			va_atterrir = false;
+			atterri = true;
+		}
 	}
 }
 else

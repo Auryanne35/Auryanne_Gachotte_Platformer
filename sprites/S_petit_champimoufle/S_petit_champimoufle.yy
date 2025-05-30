@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"persos",
-    "path":"folders/Sprites/persos.yy",
+    "name":"champimoufle",
+    "path":"folders/Sprites/persos/champimoufle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

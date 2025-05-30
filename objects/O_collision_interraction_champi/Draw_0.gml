@@ -14,8 +14,8 @@ if(interraction_champi == true){	/// @DnDAction : YoYo Games.Drawing.Draw_Spri
 	/// @DnDParent : 3A1DBD3B
 	/// @DnDArgument : "x" "-32"
 	/// @DnDArgument : "x_relative" "1"
-	/// @DnDArgument : "y" "-100"
+	/// @DnDArgument : "y" "-taille"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "sprite" "S_touche_e"
 	/// @DnDSaveInfo : "sprite" "S_touche_e"
-	draw_sprite(S_touche_e, 0, x + -32, y + -100);}
+	draw_sprite(S_touche_e, 0, x + -32, y + -taille);}

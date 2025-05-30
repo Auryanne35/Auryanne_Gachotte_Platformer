@@ -6,10 +6,12 @@
   ],
   "managed":true,
   "name":"O_fin_chapitre_champi",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_collision_interraction_champi","path":"objects/O_collision_interraction_champi/O_collision_interraction_champi.yy",},"propertyId":{"name":"taille","path":"objects/O_collision_interraction_champi/O_collision_interraction_champi.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"130",},
+  ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"joueur",
+    "path":"folders/Objects/joueur.yy",
   },
   "parentObjectId":{
     "name":"O_collision_interraction_champi",

@@ -8,8 +8,8 @@
   "name":"O_tp_fleur",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"joueur",
+    "path":"folders/Objects/joueur.yy",
   },
   "parentObjectId":null,
   "persistent":false,

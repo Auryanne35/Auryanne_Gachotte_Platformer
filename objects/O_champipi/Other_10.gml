@@ -11,9 +11,9 @@ if(spores == false){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDArgument : "expr" "true"
 	/// @DnDArgument : "expr_1" "true"
 	/// @DnDArgument : "var" "spores"
-	/// @DnDArgument : "var_1" "O_champimoufle.attaque"
+	/// @DnDArgument : "var_1" "O_champimoufle.frappe"
 	spores = true;
-	O_champimoufle.attaque = true;
+	O_champimoufle.frappe = true;
 
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1

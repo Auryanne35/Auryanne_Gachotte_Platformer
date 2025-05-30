@@ -11,12 +11,12 @@ if (frappe)
 	}
 	if (image_index >= 3.5)
 	{
-		attaque = false;
+		frappe = false;
 	}
 }
 else if (saute)
 {
-	sprite_index = saut;
+	sprite_index = saut_perso;
 	if (dirX == 1)
 	{
 		image_xscale = 1
@@ -25,9 +25,9 @@ else if (saute)
 	{
 		image_xscale = -1
 	}
-	if (image_index >= 2.5)
+	if (image_index >= 3.5)
 	{
-		saut = false;
+		saute = false;
 	}
 }
 else if(atterri)
@@ -41,9 +41,9 @@ else if(atterri)
 	{
 		image_xscale = -1
 	}
-	if (image_index >= 2.5)
+	if (image_index >= 3.5)
 	{
-		atterrissage = false;
+		atterri = false;
 	}
 }
 else if (hspeed >= 1)
