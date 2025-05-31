@@ -123,9 +123,9 @@ if(global.vie_champi <= 0){	/// @DnDAction : YoYo Games.Instances.If_Instance_
 	/// @DnDVersion : 1
 	/// @DnDHash : 13FEF7B5
 	/// @DnDParent : 5C8E238C
-	/// @DnDArgument : "room" "R_mort"
-	/// @DnDSaveInfo : "room" "R_mort"
-	room_goto(R_mort);}
+	/// @DnDArgument : "room" "R_mort_champi"
+	/// @DnDSaveInfo : "room" "R_mort_champi"
+	room_goto(R_mort_champi);}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
@@ -210,6 +210,6 @@ if(global.vie_fleur <= 0){	/// @DnDAction : YoYo Games.Instances.If_Instance_E
 	/// @DnDVersion : 1
 	/// @DnDHash : 6CF9024F
 	/// @DnDParent : 5EE0FB74
-	/// @DnDArgument : "room" "R_mort"
-	/// @DnDSaveInfo : "room" "R_mort"
-	room_goto(R_mort);}
+	/// @DnDArgument : "room" "R_mort_fleur"
+	/// @DnDSaveInfo : "room" "R_mort_fleur"
+	room_goto(R_mort_fleur);}

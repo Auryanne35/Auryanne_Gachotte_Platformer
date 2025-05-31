@@ -12,6 +12,7 @@ if (frappe)
 	if (image_index >= 3.5)
 	{
 		frappe = false;
+		sprite_index = idle;
 	}
 }
 else if (saute)

@@ -35,8 +35,8 @@ if(cote > 90){	/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDHash : 54B10913
 			/// @DnDParent : 19EE540E
 			/// @DnDArgument : "expr" "true"
-			/// @DnDArgument : "var" "O_fleuruisant.attaque"
-			O_fleuruisant.attaque = true;
+			/// @DnDArgument : "var" "O_fleuruisant.frappe"
+			O_fleuruisant.frappe = true;
 		
 			/// @DnDAction : YoYo Games.Instances.Set_Alarm
 			/// @DnDVersion : 1
@@ -66,8 +66,8 @@ else{	/// @DnDAction : YoYo Games.Movement.Set_Speed
 		/// @DnDHash : 478E269F
 		/// @DnDParent : 3FFFA9BF
 		/// @DnDArgument : "expr" "true"
-		/// @DnDArgument : "var" "O_fleuruisant.attaque"
-		O_fleuruisant.attaque = true;
+		/// @DnDArgument : "var" "O_fleuruisant.frappe"
+		O_fleuruisant.frappe = true;
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1

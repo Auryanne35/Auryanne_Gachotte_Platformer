@@ -9,15 +9,7 @@ interraction_fleur = true;
 /// @DnDVersion : 1
 /// @DnDHash : 69241FC8
 /// @DnDArgument : "key" "vk_shift"
-var l69241FC8_0;l69241FC8_0 = keyboard_check_pressed(vk_shift);if (l69241FC8_0){	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 7FA5B9B5
-	/// @DnDParent : 69241FC8
-	/// @DnDArgument : "expr" "true"
-	/// @DnDArgument : "var" "O_fleuruisant.frappe"
-	O_fleuruisant.frappe = true;
-
-	/// @DnDAction : YoYo Games.Instances.Call_User_Event
+var l69241FC8_0;l69241FC8_0 = keyboard_check_pressed(vk_shift);if (l69241FC8_0){	/// @DnDAction : YoYo Games.Instances.Call_User_Event
 	/// @DnDVersion : 1
 	/// @DnDHash : 6914C72E
 	/// @DnDParent : 69241FC8

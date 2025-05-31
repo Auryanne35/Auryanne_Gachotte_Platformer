@@ -23,10 +23,10 @@ function Sc_perte_vie_enemi(degat, temps_invincible) {	/// @DnDAction : YoYo G
 		/// @DnDArgument : "expr_2" "true"
 		/// @DnDArgument : "var" "vie"
 		/// @DnDArgument : "var_1" "invincible"
-		/// @DnDArgument : "var_2" "O_fleuruisant.attaque"
+		/// @DnDArgument : "var_2" "O_fleuruisant.frappe"
 		vie += -degat;
 		invincible = true;
-		O_fleuruisant.attaque = true;
+		O_fleuruisant.frappe = true;
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1
