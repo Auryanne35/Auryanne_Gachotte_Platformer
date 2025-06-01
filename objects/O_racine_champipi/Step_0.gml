@@ -43,9 +43,9 @@ if(mon_champignon.spores == true){	/// @DnDAction : YoYo Games.Common.If_Varia
 		/// @DnDArgument : "xpos_relative" "1"
 		/// @DnDArgument : "ypos_relative" "1"
 		/// @DnDArgument : "objectid" "O_spores"
-		/// @DnDArgument : "layer" ""enigme""
+		/// @DnDArgument : "layer" ""enigme_premier_plan""
 		/// @DnDSaveInfo : "objectid" "O_spores"
-		instance_create_layer(x + x_spores, y + 0, "enigme", O_spores);}}
+		instance_create_layer(x + x_spores, y + 0, "enigme_premier_plan", O_spores);}}
 
 /// @DnDAction : YoYo Games.Common.Else
 /// @DnDVersion : 1

@@ -30,7 +30,6 @@
     {"$GMObjectProperty":"v1","%Name":"ma_racine","filters":[],"listItems":[],"multiselect":false,"name":"ma_racine","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"attaque","filters":[],"listItems":[],"multiselect":false,"name":"attaque","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"morte","filters":[],"listItems":[],"multiselect":false,"name":"morte","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
-    {"$GMObjectProperty":"v1","%Name":"compteur_mange","filters":[],"listItems":[],"multiselect":false,"name":"compteur_mange","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

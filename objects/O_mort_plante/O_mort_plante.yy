@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_collision",
-    "path":"sprites/S_collision/S_collision.yy",
+    "name":"S_mort_plante",
+    "path":"sprites/S_mort_plante/S_mort_plante.yy",
   },
   "spriteMaskId":null,
   "visible":false,
